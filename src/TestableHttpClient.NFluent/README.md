@@ -54,4 +54,4 @@ See also the list of [contributors](https://github.com/dnperfors/TestableHttpCli
 
 ## License
 
-This project is released under the MIT license, see [LICENSE.md](../../LICENSE.md) for more information.
+This project is released under the MIT license, see [LICENSE.md](https://github.com/dnperfors/TestableHttpClient/blob/master/LICENSE.md) for more information.
