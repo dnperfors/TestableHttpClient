@@ -15,6 +15,7 @@
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/dnperfors/TestableHttpClient</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
@@ -28,9 +29,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)/LICENSE.md">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
+    <None Include="$(MSBuildThisFileDirectory)/LICENSE.md" Pack="true" PackagePath="" />
+    <None Include="$(MSBuildProjectDirectory)/README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
